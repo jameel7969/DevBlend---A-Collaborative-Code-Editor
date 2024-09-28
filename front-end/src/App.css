@@ -1,0 +1,128 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .mobileMenu {
+  background-color: white;
+  color: black;
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  flex-direction: column;
+  width: 40%;
+  border-radius: 10px;
+  position: absolute;
+  right: 4%;
+  top: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mobileMenu a {
+  text-align: center;
+  padding: 5px 0;
+} */
+
+/* .navbar {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+} */
+
+.homeSection {
+  background: linear-gradient(to bottom, #0e1525, #342270);
+}
+
+/* .boxes{
+  background: linear-gradient(to bottom,  #0e1220,#182132);
+} */
+
+/* box shadow of the boxes */
+.boxShadow:hover {
+  box-shadow: 0 0.1rem 2rem 0.1rem #004182;
+}
+
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: red;
+  transform-origin: 0%;
+}
+
+/* .signupFormInput {
+  padding: 25px;
+  border-radius: 10%;
+  background-color: transparent;
+  border: 1px solid #616161;
+  outline: none;
+}
+.signupFormInput::placeholder{
+  color: gray;
+} */
+
+/* input::-webkit-outer-spin-button, */
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* sinup background gradient */
+.gradient {
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  left: 30%;
+  top: 10%;
+  background: rgba(8, 124, 195, 0.2);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+
+.image {
+  position: absolute;
+  background-image: url("./assets/laptopWallpaper.png");
+  width: 300px;
+  height: 400px;
+  top: 1%;
+  background-repeat: no-repeat;
+  left: 1%;
+}
+
+/* Swiper */
+
+
+
+
+
+/* ::-webkit-scrollbar{
+  display: hidden;
+} */
+
+
+.blurIn {
+  filter: blur(5px); 
+  transition: filter 1s ease;
+}
+ 
+.blurOut{
+  transition: filter 1s ease;
+}
+
+
+.codmirror{
+  height: auto;
+}
+
+
+.typing-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1000; /* Ensure it's above the editor content */
+}
