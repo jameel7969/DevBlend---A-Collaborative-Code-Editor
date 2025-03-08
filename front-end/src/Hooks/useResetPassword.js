@@ -13,7 +13,7 @@ export const useResetPassword = () => {
         setError(null);
 
         try {
-            const response = await fetch(`http://localhost:4000/api/auth/reset-password/${token}`, {
+            const response = await fetch(`http://localhost:5000/api/auth/reset-password/${token}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
